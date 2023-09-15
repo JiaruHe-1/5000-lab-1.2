@@ -1,0 +1,92 @@
+---
+title: "simple_quarto_website"
+author: Jiaru He
+bibliography:  reference.bib
+toc: true
+---
+# About meeeeeee1111111111111
+
+> look 
+
+## this is a me22222222222222
+
+> at
+
+### me3333333 is here heheheh
+
+> here
+
+# TEXT ASSIGNMENT
+
+## Bulleted List
+
+- Apple
+- Banana
+- Cherry
+- Douuts
+- Emotional damage
+
+
+## Two Column is here
+
+:::: {.columns}
+::: {.column}
+Hi this is me >>
+:::
+::: {.column}
+<< This is me, too
+:::
+::::
+
+## Markdown Table is here
+
+| A     |   B  |   C   |    D   |
+|-------|:-----|------:|:------:|
+| 12    | 12   |    12 |   12   |
+| 123   | 123  |   123 |  123   |
+| 1     | 1    |     1 |   1    |
+
+## Inline-math LaTex equation
+$( F= \frac{mV^2}{R} )$.
+
+## non-inline-math LaTe euqation
+
+$$
+( F= \frac{mV^2}{R} )
+$$
+
+## Foot-note
+footnote reference.[^1]
+
+[^1]: heheheh here is the blank reference (> 3 <)
+
+## Images and Videos
+
+![Jiaru's Graduate Photo](images/photo1.PNG)
+
+![Jiaru's Professional Photo](images/photo2.PNG)
+
+{{< video https://www.youtube.com/watch?v=e9qCS8ODs4o&list=PLkrJrLs7xfbXcEKhTCKRSr2VXH4yiBeXo >}}
+
+## Mermaid Diagram
+```{mermaid}
+sequenceDiagram
+    participant Kelsey
+    participant Chole
+    Kelsey->>Chole: Hello Chole, how are you?
+    loop Mental Health
+        Kelsey->>Kelsey: Dealing with mental issue
+    end
+    Note right of Kelsey: Get some help!!
+    Chole-->>Kelsey: Great!
+    Kelsey->>Tina: How about you?
+    Chole-->>Tina: guuuuud!
+```
+
+
+## Citation
+[@ortiz2011dynamic]
+[@van2006sliding]
+
+
+
